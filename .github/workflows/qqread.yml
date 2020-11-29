@@ -10,7 +10,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: qqread1
+    types: qqread
 jobs:
   build:
 
@@ -38,6 +38,6 @@ jobs:
            npm install got download tough-cookie          
       - name: '运行 【QQ阅读】'
         run: |
-          node scripts/qqread.js
+          node qqread.js
         env:
              COOKIE_QQYD: ${{ secrets.COOKIE_QQYD }}
