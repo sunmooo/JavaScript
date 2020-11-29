@@ -39,7 +39,7 @@ jobs:
           npm install tough-cookie          
       - name: '运行 【QQ阅读】'
         run: |
-          node qqread.js
+          node qqread1.js
         env:
               QQREAD_HEADER: ${{ secrets.QQREAD_HEADER }}
               QQREAD_TIMEURL: ${{ secrets.QQREAD_TIMEURL }}
