@@ -58,7 +58,7 @@ const cookiesArr = [
     qqreadheaderVal: JSON.stringify({
       ywsession: "jvn26gf4tjwobhjr3gcpjtbihz11mr14",
       Cookie:
-        "ywguid=790448968;ywkey=ywKCXnoffIjv;platform=ios;channel=mqqmina;mpVersion=0.30.0 Accept-Language: zh-cn",
+        "ywguid=790448968;ywkey=ywKCXnoffIjv;platform=ios;channel=mqqmina;mpVersion=0.30.0",
       Connection: "keep-alive",
       "Content-Type": "application/json",
       Accept: "*/*",
