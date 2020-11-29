@@ -40,6 +40,6 @@ jobs:
         run: |
           node qqread.js
         env:
-        QQREAD_HEADER: ${{ secrets.QQREAD_HEADER }}
-        QQREAD_TIMEURL: ${{ secrets.QQREAD_TIMEURL }}
-        QQREAD_TIMEHEADER: ${{ secrets.QQREAD_TIMEHEADER }}
+              QQREAD_HEADER: ${{ secrets.QQREAD_HEADER }}
+              QQREAD_TIMEURL: ${{ secrets.QQREAD_TIMEURL }}
+              QQREAD_TIMEHEADER: ${{ secrets.QQREAD_TIMEHEADER }}
