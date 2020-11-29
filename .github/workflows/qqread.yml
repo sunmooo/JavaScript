@@ -40,4 +40,6 @@ jobs:
         run: |
           node qqread.js
         env:
-             COOKIE_QQYD: ${{ secrets.COOKIE_QQYD }}
+        QQREAD_HEADER: ${{ secrets.QQREAD_HEADER }}
+        QQREAD_TIMEURL: ${{ secrets.QQREAD_TIMEURL }}
+        QQREAD_TIMEHEADER: ${{ secrets.QQREAD_TIMEHEADER }}
