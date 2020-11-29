@@ -38,6 +38,6 @@ jobs:
            npm install got download tough-cookie          
       - name: '运行 【QQ阅读】'
         run: |
-          node qqread.js
+          node scripts/qqread.js
         env:
              COOKIE_QQYD: ${{ secrets.COOKIE_QQYD }}
