@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
            npm install
-           npm install got download            
+           npm install got download tough-cookie          
       - name: '运行 【QQ阅读】'
         run: |
           node qqread1.js
