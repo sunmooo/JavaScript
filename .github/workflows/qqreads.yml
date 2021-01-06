@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/sunmooo/JavaScript.git ~/JavaScript
+          git clone https://github.com/sunmooo/JD1.git ~/JD1
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
@@ -35,7 +35,7 @@ jobs:
       - name: '运行 【企鹅读书】'
         if: env.QQREAD_TIMEHD
         run: |
-          cd ~/JavaScript
+          cd ~/JD1
           node Task/qqreads.js
         env:
           
